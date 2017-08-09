@@ -103,10 +103,7 @@ table {
 	font-weight: normal;
 	font-style: normal;
 }
-body{
-	margin: 0 auto;
-	width: 1440px;
-}
+
 
 header{
 	position: relative;
@@ -119,7 +116,7 @@ header{
 	position: absolute;
 	width: 103px;
 	height: 35px;
-	left: 150px;
+	left: 20%;
 	top: 70px;
 	line-height: 35px;
 	outline: 5px solid #170f1c;
@@ -138,7 +135,7 @@ header{
 
 .header__menu{
 	position: absolute;
-	right: 150px;
+	right: 20%;
 	top: 80px;
 	cursor: pointer;
 	z-index: 1;
@@ -149,22 +146,23 @@ header{
 	font-family:  'Conv_Montserrat-Regular';
 	text-transform: uppercase;
 	text-decoration: none;
-	font-size: 18px;	
+	font-size: 18px;
+	padding: 0 3px;	
 }
 
 .header__menu_hover{
 	display: block;
 	position: absolute;
-	right: 200px;
+	right: 22%;
 	top: 80px;
-	z-index: 3;
 	text-align: left;
 }
 .header__menu_hover li{
   list-style-type: none;
+  margin: 7px 0;
 }
 
-.header__menu_hover li:hover{
+.header__menu_hover li a:hover{
 	background-color: #b2f2ee;
 }
 
@@ -198,8 +196,6 @@ td{
 	display: inline-block;
 	background-color: #b2f2ee;
 	padding: 7px 7px;
-	
-
 }
 
 .header__button{
@@ -222,7 +218,7 @@ td{
 .header__glass{
 	position: absolute;
 	bottom: 130px;
-	right: 240px;
+	right: 440px;
 	width: 100px;
 	height: 100px;
 	background: url(img/glass-sprite.png) no-repeat;
@@ -235,12 +231,11 @@ td{
 .about_us{
 	background-color: #f8fafa;
 	text-align: center;
-	height: 985px;
+	padding: 130px 0 100px;
 }
 
-.about_us__title{
+.about_us__title, .work__title{
 	position: relative;
-	top: 130px;
 	letter-spacing: 5px;
 	font-family: 'Conv_Montserrat-Bold';
 	font-size: 38px;
@@ -248,25 +243,27 @@ td{
 	text-transform: uppercase;
 }
 
-.about_us__text{
+.about_us__text, .work__text{
 	position: relative;
 	font-family: 'Conv_Merriweather-Regular';
 	font-size: 18px;
 	color: #848585;
 	text-transform: uppercase;
-	top: 142px;
+	margin-top: 12px;
 	letter-spacing: 1px;
+}
+.about_us__block{
+	display: inline-block;
+	vertical-align: top;
 }
 
 .about_us__gallery{
 	position: relative;
 	width: 480px;
 	height: 540px;
-	top: 280px;
-	left: 190px;
-	float: left;
-
+	margin: 125px 40px 0 0;
 }
+
 .gallery_background{
 	width: 480px;
 	height: 415px;
@@ -343,10 +340,8 @@ input[type="radio"].checked + label span {
 	position: relative;
 	width: 480px;
 	height: 540px;
-	top: 280px;
-	right: 190px;
-	float: right;
-	text-align: left;
+	margin: 125px 0 0 40px;
+	text-align: left;	
 }
 
 .about_us__description__title{
@@ -371,3 +366,21 @@ input[type="radio"].checked + label span {
 	text-transform: uppercase;
 	margin: 40px 0 25px;
 }
+
+.work{
+	background-color: #ffffff;
+	text-align: center;
+	padding: 130px 0 100px;
+}
+
+.work__container{
+	position: relative;
+	margin: 130px auto 100px;
+	width: 70%;
+}
+
+.workimg{
+	margin: 5px;
+	max-width: 40%;
+}
+
