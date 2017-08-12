@@ -231,10 +231,10 @@ td{
 .about_us{
 	background-color: #f8fafa;
 	text-align: center;
-	padding: 130px 0 100px;
+	padding: 125px 0 100px;
 }
 
-.about_us__title, .work__title{
+.block__title{
 	position: relative;
 	letter-spacing: 5px;
 	font-family: 'Conv_Montserrat-Bold';
@@ -243,7 +243,7 @@ td{
 	text-transform: uppercase;
 }
 
-.about_us__text, .work__text{
+.block__text{
 	position: relative;
 	font-family: 'Conv_Merriweather-Regular';
 	font-size: 18px;
@@ -287,7 +287,6 @@ td{
   height: 100%;
   opacity: 0;
   z-index: 0;
-  /*background: gray;*/
   -webkit-transition: opacity 1s;
   transition: opacity 1s;
   background-size: cover;
@@ -344,7 +343,7 @@ input[type="radio"].checked + label span {
 	text-align: left;	
 }
 
-.about_us__description__title{
+.description__title{
 	font-family: 'Conv_Merriweather-Regular';
 	font-size: 20px;
 	color: #646565;
@@ -352,14 +351,14 @@ input[type="radio"].checked + label span {
 	margin-bottom: 35px;
 }
 
-.about_us__description__text{
+.description__text{
 	font-family: 'Conv_Raleway-Regular';
 	font-size: 16px;
 	color: #666767;
 	line-height: 28px;
 }
 
-.about_us__description__title2{
+.description__title2{
 	font-family: 'Conv_Merriweather-Regular';
 	font-size: 17px;
 	color: #646565;
@@ -370,7 +369,7 @@ input[type="radio"].checked + label span {
 .work{
 	background-color: #ffffff;
 	text-align: center;
-	padding: 130px 0 100px;
+	padding: 125px 0 100px;
 }
 
 .work__container{
@@ -384,3 +383,59 @@ input[type="radio"].checked + label span {
 	max-width: 40%;
 }
 
+.service{
+	background-color: #f9fbfb;
+	text-align: center;
+	padding: 125px 0 100px;
+}
+
+.positioneer{
+	position: relative;
+	width: 1170px;
+	margin: 125px auto;
+}
+
+.service__block{
+	position: relative;
+	display: inline-block;
+	height: 415px;
+	outline: 1px solid black;
+	vertical-align: top;
+	box-sizing: border-box;
+	text-align: left;
+	margin-top: 15px;
+}
+
+.service__block:nth-child(odd){
+	margin-right: 15px;
+}
+
+.bl1, .bl3, .bl6{
+	width: 650px;
+}
+
+.bl2, .bl4, .bl5{
+	width: 470px;
+}
+
+.bl1{
+	padding: 55px 115px 145px 60px;
+	background: #70f5ea; 		
+}
+
+.set_bg{
+	position: absolute;
+	left: 55px;
+	bottom: 55px;
+}
+
+
+.under_bground{
+	background: #e2e2e2 url(img/bg_bl1.png) 50% 0 no-repeat;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	
+}
