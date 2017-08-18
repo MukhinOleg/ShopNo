@@ -1,0 +1,163 @@
+@media all and (max-width: 1024px){
+
+	.about_us, .work, .service,
+	.team, .testimonial, .logo, .contact, footer{
+		padding: 65px 0 50px;
+	}
+
+	.header__glass{
+		right: 10%;
+	}
+
+	.about_us__gallery{
+		margin: 70px auto;
+	}
+
+	.about_us__description{
+		height: auto;
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.positioneer{
+		width: 90%;
+		margin: 70px auto 0;
+	}
+
+	.bl1, .bl3, .bl6{
+		width: 55%;
+	}
+
+	.bl2, .bl4, .bl5{
+		width: 40%;
+	}
+
+	.testimonial_slides{
+		width: 90%;
+		margin-top: 70px;
+	}
+
+	.test__sl_bground{
+		margin: 0 50px 0 15px;
+	}
+
+	.slide_speech{
+		width: 400px;
+		padding: 40px 30px 0;
+	}
+
+	.service__block .transp_bground{
+		padding-top: 100px;
+	}
+
+	.logo_row1{
+		margin: 0;
+	}
+
+	form{
+		margin-right: 0;
+	}
+	.location{
+		width: 615px;
+		margin-top: 20px;
+	}
+
+	.location_map{
+		margin: 25px auto;
+	}
+
+	footer{
+		padding: 50px 0;
+	}
+}
+
+@media all and (max-width: 768px){
+
+		.header__title__text1, .header__title__text2{
+			font-size: 35px;
+		}
+
+		.block__title{
+			font-size: 30px;
+		}
+
+		.block__text{
+			font-size: 16px;
+		}
+
+		.description__title{
+			font-size: 16px;
+		}
+
+		.description__title2{
+			font-size: 15px;
+		}
+
+		.bl1{
+			padding: 35px 40px;
+		}
+
+		.set_bg {
+			left: 35px;
+		}
+
+		.service__block .transp_bground{
+		padding: 100px 40px;
+		}
+
+		.team_block{
+			background-size: cover;
+			width: 200px;
+			height: 235px;
+		}
+
+		.speech {
+		    width: 185px;
+		    height: 200px;
+		    margin: 30px auto 15px;
+		    padding: 20px 20px 5px 5px;
+		}
+
+		.staff_name{
+			font-size: 12px;
+		}
+
+		.staff_text {
+		    font-size: 14px;
+		    margin: 10px 0 25px;
+		}
+
+
+		.test__sl_bground {
+		    width: 244px;
+		    height: 235px;
+		    margin-right: 25px;
+		}
+
+		.test_img {    
+		    left: 22px;
+		    top: -10px;
+		    width: 200px;
+		    height: 255px;    
+		}
+
+		.slide_speech{
+			width: 350px;
+			height: 245px;
+			line-height: 20px;
+			padding: 20px 20px 0;
+
+		}
+
+		.testimonial_slides{
+			height: 290px;
+		}
+
+		footer {
+    		padding: 30px 0;
+}
+
+
+
+
+}
