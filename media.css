@@ -92,6 +92,10 @@
 		.description__title2{
 			font-size: 15px;
 		}
+		
+		.description__text{
+			line-height: 25px;
+		}
 
 		.bl1{
 			padding: 35px 40px;
