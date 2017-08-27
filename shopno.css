@@ -128,10 +128,15 @@ header{
 	text-shadow: #4d4d4e 0 0 2px;
 }
 
-.header__logo span{
+.logo_letter{
 	font-size: 25px;
 	color: #77efe5;
 }
+
+.logo_letter_color{
+	color: #ffda42;
+}
+
 
 .header__menu{
 	position: absolute;
@@ -198,6 +203,10 @@ td{
 	padding: 7px 7px;
 }
 
+.square_bg{
+	background-color: #ffda42;
+}
+
 .header__button{
 	position: relative;
 	margin: auto;
@@ -224,7 +233,7 @@ td{
 	background: url(img/glass-sprite.png) no-repeat;
 }
 
-.header__glass:hover{
+.header__glass__toggle{
 	background: url(img/glass-sprite.png) no-repeat -121px 0;	
 }
 
@@ -387,7 +396,7 @@ input[type="radio"].checked + label span {
 
 .positioneer{
 	position: relative;
-	width: 1170px;
+	width: 70%;
 	margin: 125px auto 0;
 }
 
@@ -599,7 +608,7 @@ input[type="radio"].checked + label span {
 .testimonial_slides{
 	position: relative;
 	margin: 125px auto 0;
-	width: 1170px;
+	width: 70%;
 	height: 420px;
 }
 
@@ -772,8 +781,6 @@ input[type=submit]{
 	margin: 0 auto;
 	vertical-align: top;
 	display: inline-block;
-	border: 1px solid black;
-	background-color: red;
 	position: relative;
 	box-sizing: border-box;
 	font-family: 'Conv_Raleway-Regular';
@@ -833,7 +840,12 @@ footer{
 
 #topBut{
 	position: fixed;
-	right: 45px;
-	bottom: 45px;
+	right: 0;
+	bottom: 0;
 	display: none;
+}
+
+.topBut{
+	max-width: 75%;
+	cursor: pointer;
 }
