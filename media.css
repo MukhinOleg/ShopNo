@@ -1,3 +1,10 @@
+@media all and (max-width: 1366px){
+
+	.work__container, .positioneer, .testimonial_slides{
+		width: 100%;
+	}
+}
+
 @media all and (max-width: 1024px){
 
 	.about_us, .work, .service,
